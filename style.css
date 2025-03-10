@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: url(home2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 20px;
+
+}
+
+.container{
+    width: 90%;
+    height: 60px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 30px;
+    border-radius: 30px;
+    border: 1px solid #03a038;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-list li{
+    display: inline;
+    margin: 25px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav-list{
+    display: none;
+}
+.menu-icon{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.hero-section .content_wrapper{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 0 20px;
+    margin: 0 auto;
+
+
+}
+
+.content_wrapper h1{
+    font-size: 24px;
+    font-weight: 700;
+
+
+}
+
+form{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #eed80f, rgb(5,118,170));
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: left;
+    padding: 30px;
+    
+}
+
+.search-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.search-item div{
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.search-item input{
+    height: 30px;
+    width: 100%;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    color: #5a5959;
+
+
+}
+.search_btn{
+    height: 50px;
+    padding: 0 46px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    background: #31124b;
+    columns: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.services{
+    padding: 100px 0;
+    background-color: #e6f7ec;
+    
+
+}
+
+.services h5 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.services h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.services .row{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+
+}
+
+.services .row .col{
+    background: linear-gradient(to top, #fafafa,#c8f3d7);
+    padding: 40px;
+    text-align: center;
+    margin: 30px 10px;
+}
+.services .row .col h2{
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 700;
+    
+}
+
+.services .row .col img{
+    height: 200px;
+    width: 200px;
+}
+
+.destination{
+    background: #f7efef;
+
+}
+
+.destination .row .col1 img{
+    width: 100%;
+    height: 300px;
+}
+
+.destination .row .col1{
+    background: #fbf5f5;
+    margin: 30px 10px;
+    padding-bottom: 30px;
+    border: 1px solid #ccc;
+
+
+}
+
+.destination .row .col1 h2{
+    margin: 20px 10px 0;
+    text-align: left;
+}
+.destination .row .col1 p{
+    margin: 10px 10px 20px;
+    text-align: left;
+
+
+}
+.destination .row .col1 a{
+    margin: 10px 10px 20px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 6px 20px;
+    font-weight: 600;
+    text-align: right;
+}
+
+footer{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #05491c;
+}
+footer p{
+    text-align: center;
+    color: grey;
+}
+
+@media only screen and (min-width: 768px){
+    .nav-list{
+        display: block;
+    }
+    .menu-icon{
+        display: none;
+    }
+    
+.hero-section .content_wrapper{
+    top: 40%;
+}
+
+.content_wrapper h1{
+    font-size: 55px;
+}
+.content_wrapper p{
+    font-size: 25px;
+    margin: 10px 0;
+
+}
+form{
+    justify-content: center;
+
+
+}
+form .search-item input{
+    height: 40px;
+}
+}
+
+
